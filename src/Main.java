@@ -63,11 +63,6 @@ public class Main {
         System.out.println(a1.toString());
         System.out.println("average rating : "+a1.getAverageRating());
 
-//      Store s1=new Store(new ArrayList<User>(),new ArrayList<Media>());
-//      User u1 = new User("Reen","reen@gmail.com",new ArrayList<Media>(),new ArrayList<Media>());
-//        Media m1 =new Book();
-//        System.out.println(s1.displayUsers());
-//        System.out.println(s1.displayMedia());
 
     }
 }
