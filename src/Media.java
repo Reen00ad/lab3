@@ -48,7 +48,7 @@ public class Media {
     }
 
     public String getMediaType(){
-        return " ";
+        return "Media";
     }
 
     @Override
