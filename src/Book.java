@@ -41,7 +41,7 @@ public class Book extends Media{
        for(Review review : reviews){
            avg+=review.getRating();
        }
-        return reviews.size() > 0 ? avg / reviews.size():0 ;
+        return rate/reviews.size();
     }
     public void purchase(User user){
         if(stock > 0){
